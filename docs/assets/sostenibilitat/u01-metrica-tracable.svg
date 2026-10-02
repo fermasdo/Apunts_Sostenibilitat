@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 900" role="img" aria-labelledby="title desc">
+  <title id="title">Fitxa mínima d'una mètrica traçable</title>
+  <desc id="desc">Seqüència de quatre blocs: finalitat, definició, context i traçabilitat. Cada bloc enumera els camps mínims i una nota final recorda que un indicador operatiu no demostra per si sol un impacte final.</desc>
+  <metadata>Autoria: equip de disseny del projecte. Llicència: CC0 1.0. Recurs original; sense fonts externes. Creat: 2026-07-31. Revisat: 2026-08-04. Instrucció: adaptar la fitxa textual d'U01 a una composició vertical accessible, sense valors quantitatius ni conclusions noves.</metadata>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0l10 5-10 5z" fill="#2563EB"/></marker></defs>
+  <style>text{font-family:Arial,Helvetica,sans-serif;fill:#0F172A}.h{font-size:34px;font-weight:700}.k{font-size:26px;font-weight:700}.s{font-size:24px}.box{fill:#FFF;stroke:#334155;stroke-width:3}.arr{stroke:#2563EB;stroke-width:5}.tip{fill:#2563EB}.note{fill:#DBEAFE;stroke:#2563EB;stroke-width:3}</style>
+  <rect width="640" height="900" fill="#F8FAFC"/><text class="h" x="32" y="55">Fitxa mínima d'una mètrica traçable</text>
+  <path class="arr" d="M320 200v38M320 360v38M320 520v38"/><path class="tip" d="M310 226h20l-10 14zM310 386h20l-10 14zM310 546h20l-10 14z"/>
+  <g><rect class="box" x="40" y="95" width="560" height="105" rx="12"/><text class="k" x="65" y="135">1 · Finalitat — què seguim?</text><text class="s" x="65" y="170">Assumpte, decisió o objectiu de revisió.</text></g>
+  <g><rect class="box" x="40" y="255" width="560" height="105" rx="12"/><text class="k" x="65" y="295">2 · Definició — com es calcula?</text><text class="s" x="65" y="330">Unitat, fórmula i denominador, si correspon.</text></g>
+  <g><rect class="box" x="40" y="415" width="560" height="105" rx="12"/><text class="k" x="65" y="455">3 · Context — quan i on?</text><text class="s" x="65" y="490">Període, abast, mostra i mètode.</text></g>
+  <g><rect class="box" x="40" y="575" width="560" height="135" rx="12"/><text class="k" x="65" y="615">4 · Traçabilitat — d'on ve?</text><text class="s" x="65" y="650">Font, responsabilitat i data.</text><text class="s" x="65" y="681">Exclusions, limitacions i incertesa.</text></g>
+  <rect class="note" x="40" y="765" width="560" height="100" rx="12"/><text class="k" x="65" y="805">Comprova el límit abans de concloure</text><text class="s" x="65" y="840">Un indicador operatiu no prova un impacte final.</text>
+</svg>

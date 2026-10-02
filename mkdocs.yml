@@ -1,0 +1,53 @@
+site_name: Sostenibilitat aplicada al sistema productiu
+site_description: Materials publicables del mòdul 1708 per a CFGS DAW
+site_author: Sostenibilitat DAW
+site_url: https://fermasdo.github.io/Apunts_Sostenibilitat/
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+strict: true
+
+theme:
+  name: material
+  language: ca
+  font: false
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.follow
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+      toc_depth: 2-4
+
+extra_css:
+  - assets/estils-publicacio.css
+
+nav:
+  - Comença ací: index.md
+  - Aprén per unitats:
+      - U01 · Sostenibilitat, marcs i criteris ASG: unitats/u01.md
+      - U02 · Reptes ambientals i socials del sector digital: unitats/u02.md
+      - U03 · ODS i exercici professional en DAW: unitats/u03.md
+      - U04 · Economia circular i ecodisseny de servicis web: unitats/u04.md
+      - U05 · Pràctiques sostenibles en el cicle de vida web: unitats/u05.md
+      - U06 · Pla de sostenibilitat d'una empresa web: unitats/u06.md
+  - Informació curricular i traçabilitat:
+      - Itinerari i càrrega orientativa: curs/itinerari.md
+      - Pla i planificació del curs: curs/pla-curs.md
+      - Matriu curricular: curs/matriu-curricular.md
+      - Estat de publicació: curs/estat-publicacio.md

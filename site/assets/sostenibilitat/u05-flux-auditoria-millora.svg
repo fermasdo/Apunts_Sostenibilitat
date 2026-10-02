@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 1160" role="img" aria-labelledby="title desc">
+  <title id="title">Flux d'auditoria i pla de millora d'una activitat web</title>
+  <desc id="desc">Seqüència de sis passos: fixar funció i unitat funcional, declarar límit i exclusions, registrar línia base i procedència, comparar indicadors sense convertir-los en impactes, proposar accions amb salvaguardes, i revisar seguiment rebot i final de vida. Una fletxa retorna a la línia base.</desc>
+  <metadata>Autoria: equip de disseny del projecte. Llicència: CC0 1.0. Recurs original; sense fonts externes. Creat: 2026-08-04. Instrucció: sintetitzar el procés auditable d'U05 i incloure el final de vida com a comprovació, sense dades de casos ni conclusions jurídiques noves.</metadata>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0l10 5-10 5z" fill="#2563EB"/></marker></defs>
+  <style>text{font-family:Arial,Helvetica,sans-serif;fill:#0F172A}.h{font-size:34px;font-weight:700}.k{font-size:26px;font-weight:700}.s{font-size:24px}.box{fill:#FFF;stroke:#334155;stroke-width:3}.arr{fill:none;stroke:#2563EB;stroke-width:5}.tip{fill:#2563EB}.note{fill:#F8FAFC;stroke:#334155;stroke-width:3;stroke-dasharray:9 7}</style>
+  <rect width="640" height="1160" fill="#F8FAFC"/><text class="h" x="32" y="55">Flux d'auditoria i millora</text>
+  <path class="arr" d="M320 195v35M320 345v35M320 495v35M320 645v35M320 795v35"/><path class="tip" d="M310 218h20l-10 14zM310 368h20l-10 14zM310 518h20l-10 14zM310 668h20l-10 14zM310 818h20l-10 14z"/>
+  <g><rect class="box" x="45" y="95" width="550" height="100" rx="12"/><text class="k" x="70" y="133">1 · Funció i unitat funcional</text><text class="s" x="70" y="168">Quin servici s'ha de conservar i comparar?</text></g>
+  <g><rect class="box" x="45" y="245" width="550" height="100" rx="12"/><text class="k" x="70" y="283">2 · Límit i exclusions</text><text class="s" x="70" y="318">Quins processos entren i quins queden fora?</text></g>
+  <g><rect class="box" x="45" y="395" width="550" height="100" rx="12"/><text class="k" x="70" y="433">3 · Línia base i procedència</text><text class="s" x="70" y="468">Condicions, dades, etiquetes i incertesa.</text></g>
+  <g><rect class="box" x="45" y="545" width="550" height="100" rx="12"/><text class="k" x="70" y="583">4 · Comparació reproduïble</text><text class="s" x="70" y="618">Mateix mètode; proxies separats d'impactes.</text></g>
+  <g><rect class="box" x="45" y="695" width="550" height="100" rx="12"/><text class="k" x="70" y="733">5 · Accions de millora</text><text class="s" x="70" y="768">Indicador i salvaguarda funcional o accessible.</text></g>
+  <g><rect class="box" x="45" y="845" width="550" height="125" rx="12"/><text class="k" x="70" y="883">6 · Seguiment i final de vida</text><text class="s" x="70" y="918">Rebot, revisió, retirada de dades i equips.</text><text class="s" x="70" y="948">Verifica el cas abans d'aplicar normativa RAEE.</text></g>
+  <path class="arr" d="M45 908H20V445h25"/><path class="tip" d="M43 435v20l15-10z"/><rect class="note" x="85" y="1030" width="510" height="90" rx="12"/><text class="s" x="110" y="1067">La revisió actualitza la línia base.</text><text class="s" x="110" y="1098">Cap resultat certifica sostenibilitat total.</text>
+</svg>

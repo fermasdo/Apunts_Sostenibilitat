@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+ <title id="title">De la decisió DAW a una contribució ODS justificada</title><desc id="desc">Cadena de cinc caixes: decisió DAW, repte, afectació, meta ODS i acció amb evidència i límit. Una nota final advertix que una icona ODS no prova una contribució.</desc>
+ <metadata>Autoria: equip de disseny del projecte. Llicència: CC0 1.0. Recurs original; sense fonts externes. Creat: 2026-07-31.</metadata>
+ <style>text{font-family:Arial,Helvetica,sans-serif;fill:#142B3D}.h{font-size:31px;font-weight:bold}.b{font-size:20px;font-weight:bold}.s{font-size:15px}.box{fill:#F7F4EE;stroke:#294052;stroke-width:3}.a{fill:none;stroke:#D46A4C;stroke-width:5;stroke-linecap:round}</style>
+ <rect width="1200" height="480" fill="#FFFDF9"/><text x="55" y="58" class="h">Una meta ODS s'ha de justificar amb una cadena d'acció</text>
+ <g><rect class="box" x="45" y="135" width="180" height="130" rx="12"/><text x="65" y="175" class="b">1. Decisió DAW</text><text x="65" y="205" class="s">p. ex. provar</text><text x="65" y="227" class="s">navegació amb teclat</text></g><path class="a" d="M225 200h45"/>
+ <g><rect class="box" x="270" y="135" width="170" height="130" rx="12"/><text x="290" y="175" class="b">2. Repte</text><text x="290" y="207" class="s">barrera d'accés</text></g><path class="a" d="M440 200h45"/>
+ <g><rect class="box" x="485" y="135" width="175" height="130" rx="12"/><text x="505" y="175" class="b">3. Afectació</text><text x="505" y="207" class="s">autonomia de</text><text x="505" y="229" class="s">persones usuàries</text></g><path class="a" d="M660 200h45"/>
+ <g><rect class="box" x="705" y="135" width="170" height="130" rx="12"/><text x="725" y="175" class="b">4. Meta ODS</text><text x="725" y="207" class="s">meta concreta,</text><text x="725" y="229" class="s">no només icona</text></g><path class="a" d="M875 200h45"/>
+ <g><rect class="box" x="920" y="135" width="235" height="130" rx="12"/><text x="940" y="175" class="b">5. Acció i evidència</text><text x="940" y="207" class="s">prova abans/després</text><text x="940" y="229" class="s">i límit declarat</text></g>
+ <rect x="140" y="340" width="920" height="68" rx="12" fill="#E7B75F"/><text x="180" y="370" class="b">Control:</text><text x="275" y="370" class="s">una acció local pot contribuir a una meta; no acredita el compliment global d'un ODS.</text><text x="275" y="393" class="s">La cadena escrita fa explícita la relació i evita l'ús decoratiu de logotips.</text>
+</svg>

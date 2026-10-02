@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Procés inicial de materialitat ASG</title>
+  <desc id="desc">Seqüència numerada de sis passos: delimitar el context, identificar grups d'interés, formular assumptes ambientals socials i de governança, separar impactes riscos i oportunitats, prioritzar amb evidència i seleccionar mètriques. Una fletxa final torna a l'inici per a revisar dades i límits.</desc>
+  <metadata>Autoria: equip de disseny del projecte. Llicència: CC0 1.0. Recurs original; sense fonts externes. Creat: 2026-07-31. Revisat: 2026-08-04. Instrucció: convertir el procés textual d'U01 en una seqüència vertical llegible en mòbil, amb numeració, fletxes coherents i cap dada nova.</metadata>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#2563EB"/></marker></defs>
+  <style>text{font-family:Arial,Helvetica,sans-serif;fill:#0F172A}.h{font-size:34px;font-weight:700}.k{font-size:26px;font-weight:700}.s{font-size:24px}.box{fill:#FFF;stroke:#334155;stroke-width:3}.arr{fill:none;stroke:#2563EB;stroke-width:5}.tip{fill:#2563EB}.note{fill:#F8FAFC;stroke:#334155;stroke-width:3;stroke-dasharray:9 7}</style>
+  <rect width="640" height="1120" fill="#F8FAFC"/><text class="h" x="32" y="55">Procés inicial de materialitat ASG</text>
+  <path class="arr" d="M320 190v42M320 350v42M320 510v42M320 670v42M320 830v42"/><path class="tip" d="M310 220h20l-10 14zM310 380h20l-10 14zM310 540h20l-10 14zM310 700h20l-10 14zM310 860h20l-10 14z"/>
+  <g><rect class="box" x="40" y="95" width="560" height="95" rx="12"/><text class="k" x="65" y="133">1 · Delimitar el context</text><text class="s" x="65" y="166">Activitat, període, cadena de valor i límits.</text></g>
+  <g><rect class="box" x="40" y="255" width="560" height="95" rx="12"/><text class="k" x="65" y="293">2 · Identificar grups d'interés</text><text class="s" x="65" y="326">Persones afectades i usuàries de la informació.</text></g>
+  <g><rect class="box" x="40" y="415" width="560" height="95" rx="12"/><text class="k" x="65" y="453">3 · Formular assumptes ASG</text><text class="s" x="65" y="486">A = ambiental · S = social · G = governança.</text></g>
+  <g><rect class="box" x="40" y="575" width="560" height="95" rx="12"/><text class="k" x="65" y="613">4 · Separar l'anàlisi</text><text class="s" x="65" y="646">Impactes · riscos · oportunitats.</text></g>
+  <g><rect class="box" x="40" y="735" width="560" height="95" rx="12"/><text class="k" x="65" y="773">5 · Prioritzar</text><text class="s" x="65" y="806">Raó, evidència, convenció i incertesa.</text></g>
+  <g><rect class="box" x="40" y="895" width="560" height="95" rx="12"/><text class="k" x="65" y="933">6 · Seleccionar mètriques</text><text class="s" x="65" y="966">Indicadors coherents amb cada assumpte.</text></g>
+  <path class="arr" d="M320 990v42H22V142h18"/><path class="tip" d="M38 132v20l15-10z"/><rect class="note" x="80" y="1035" width="520" height="60" rx="10"/><text class="s" x="105" y="1073">Revisar dades i límits pot canviar la prioritat.</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 1090" role="img" aria-labelledby="title desc">
+  <title id="title">Traça d'un pla de sostenibilitat d'una empresa web</title>
+  <desc id="desc">Cadena vertical de cinc passos: grups d'interés, aspecte ASG, anàlisi d'impacte risc o oportunitat, acció i indicador. El resultat desemboca en un informe equilibrat amb omissions i límits. Una fletxa de revisió torna al diagnòstic.</desc>
+  <metadata>Autoria: equip de disseny del projecte. Llicència: CC0 1.0. Recurs original; sense fonts externes. Creat: 2026-07-31. Revisat: 2026-08-04. Instrucció: representar la traçabilitat d'U06 amb una seqüència vertical, sense prioritats ni resultats d'una empresa real.</metadata>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0l10 5-10 5z" fill="#2563EB"/></marker></defs>
+  <style>text{font-family:Arial,Helvetica,sans-serif;fill:#0F172A}.h{font-size:34px;font-weight:700}.k{font-size:26px;font-weight:700}.s{font-size:24px}.box{fill:#FFF;stroke:#334155;stroke-width:3}.arr{fill:none;stroke:#2563EB;stroke-width:5}.tip{fill:#2563EB}.note{fill:#DBEAFE;stroke:#2563EB;stroke-width:3}</style>
+  <rect width="640" height="1090" fill="#F8FAFC"/><text class="h" x="32" y="55">Traça d'un pla de sostenibilitat</text>
+  <path class="arr" d="M320 190v35M320 335v35M320 480v35M320 625v35M320 770v45"/><path class="tip" d="M310 213h20l-10 14zM310 358h20l-10 14zM310 503h20l-10 14zM310 648h20l-10 14zM310 803h20l-10 14z"/>
+  <g><rect class="box" x="45" y="95" width="550" height="95" rx="12"/><text class="k" x="70" y="133">1 · Grups d'interés</text><text class="s" x="70" y="166">Afectació, relació, expectativa i ús.</text></g>
+  <g><rect class="box" x="45" y="240" width="550" height="95" rx="12"/><text class="k" x="70" y="278">2 · Aspecte ASG</text><text class="s" x="70" y="311">Assumpte, context i evidència disponible.</text></g>
+  <g><rect class="box" x="45" y="385" width="550" height="95" rx="12"/><text class="k" x="70" y="423">3 · Anàlisi i prioritat raonada</text><text class="s" x="70" y="456">Impacte · risc · oportunitat · incertesa.</text></g>
+  <g><rect class="box" x="45" y="530" width="550" height="95" rx="12"/><text class="k" x="70" y="568">4 · Acció</text><text class="s" x="70" y="601">Abast, responsabilitat, recursos i tensió.</text></g>
+  <g><rect class="box" x="45" y="675" width="550" height="95" rx="12"/><text class="k" x="70" y="713">5 · Indicador</text><text class="s" x="70" y="746">Finalitat, font, període, límit i incertesa.</text></g>
+  <rect class="note" x="45" y="835" width="550" height="145" rx="12"/><text class="k" x="70" y="875">Informe equilibrat</text><text class="s" x="70" y="910">Accions, resultats, omissions i dades pendents.</text><text class="s" x="70" y="944">No convertix una millora parcial en una</text><text class="s" x="70" y="970">afirmació absoluta.</text>
+  <path class="arr" d="M320 980v45H20V142h25"/><path class="tip" d="M43 132v20l15-10z"/>
+</svg>

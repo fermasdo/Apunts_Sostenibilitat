@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 970" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena de diagnòstic d'un repte digital</title>
+  <desc id="desc">Seqüència de cinc passos: activitat o decisió, recurs o relació mobilitzada, impacte potencial, persones i sectors afectats, i evidència o límit. Una nota final indica que el diagnòstic ha d'arribar a una mesura amb responsable i seguiment.</desc>
+  <metadata>Autoria: equip de disseny del projecte. Llicència: CC0 1.0. Recurs original; sense fonts externes. Creat: 2026-08-04. Instrucció: convertir la cadena mínima d'U02 en un diagrama vertical útil per a construir el diagnòstic, sense afegir exemples ni resultats.</metadata>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0l10 5-10 5z" fill="#2563EB"/></marker></defs>
+  <style>text{font-family:Arial,Helvetica,sans-serif;fill:#0F172A}.h{font-size:34px;font-weight:700}.k{font-size:26px;font-weight:700}.s{font-size:24px}.box{fill:#FFF;stroke:#334155;stroke-width:3}.arr{stroke:#2563EB;stroke-width:5}.tip{fill:#2563EB}.note{fill:#DBEAFE;stroke:#2563EB;stroke-width:3}</style>
+  <rect width="640" height="970" fill="#F8FAFC"/><text class="h" x="32" y="55">Cadena de diagnòstic</text>
+  <path class="arr" d="M320 190v38M320 330v38M320 470v38M320 610v38"/><path class="tip" d="M310 216h20l-10 14zM310 356h20l-10 14zM310 496h20l-10 14zM310 636h20l-10 14z"/>
+  <g><rect class="box" x="50" y="95" width="540" height="95" rx="12"/><text class="k" x="75" y="133">1 · Activitat o decisió</text><text class="s" x="75" y="166">Quina pràctica del servici activa el repte?</text></g>
+  <g><rect class="box" x="50" y="235" width="540" height="95" rx="12"/><text class="k" x="75" y="273">2 · Recurs o relació</text><text class="s" x="75" y="306">Què mobilitza o quina relació modifica?</text></g>
+  <g><rect class="box" x="50" y="375" width="540" height="95" rx="12"/><text class="k" x="75" y="413">3 · Impacte potencial</text><text class="s" x="75" y="446">Quin efecte pot causar? No el dones per mesurat.</text></g>
+  <g><rect class="box" x="50" y="515" width="540" height="95" rx="12"/><text class="k" x="75" y="553">4 · Persones i sectors</text><text class="s" x="75" y="586">Separa qui rep l'efecte i els sectors implicats.</text></g>
+  <g><rect class="box" x="50" y="655" width="540" height="110" rx="12"/><text class="k" x="75" y="693">5 · Evidència o límit</text><text class="s" x="75" y="726">Què pots demostrar? Quines dades falten?</text></g>
+  <path class="arr" d="M320 765v45"/><path class="tip" d="M310 798h20l-10 14z"/><rect class="note" x="50" y="830" width="540" height="105" rx="12"/><text class="k" x="75" y="870">Mesura inicial</text><text class="s" x="75" y="903">Relacionada amb el problema.</text><text class="s" x="75" y="929">Té responsable i una forma de seguiment.</text>
+</svg>

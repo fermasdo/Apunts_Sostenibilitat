@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 1400" role="img" aria-labelledby="title desc">
+  <title id="title">Bucle de revisió d'un pla de sostenibilitat web</title>
+  <desc id="desc">Bucle vertical de huit passos numerats: delimitar, escoltar grups, analitzar, prioritzar, actuar, mesurar, informar i revisar. La fletxa final torna a delimitar. Una nota recorda que una mètrica necessita abast, font, període i incertesa.</desc>
+  <metadata>Autoria: equip de disseny del projecte. Llicència: CC0 1.0. Recurs original; sense fonts externes. Creat: 2026-07-31. Revisat: 2026-08-04. Instrucció: convertir el bucle textual d'U06 en una seqüència mòbil clara, sense dades ni llindars nous.</metadata>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0l10 5-10 5z" fill="#2563EB"/></marker></defs>
+  <style>text{font-family:Arial,Helvetica,sans-serif;fill:#0F172A}.h{font-size:34px;font-weight:700}.k{font-size:26px;font-weight:700}.s{font-size:24px}.box{fill:#FFF;stroke:#334155;stroke-width:3}.arr{fill:none;stroke:#2563EB;stroke-width:5}.tip{fill:#2563EB}.note{fill:#DBEAFE;stroke:#2563EB;stroke-width:3}</style>
+  <rect width="640" height="1400" fill="#F8FAFC"/><text class="h" x="32" y="55">Bucle de revisió del pla</text>
+  <path class="arr" d="M320 180v30M320 310v30M320 440v30M320 570v30M320 700v30M320 830v30M320 960v30"/><path class="tip" d="M310 198h20l-10 14zM310 328h20l-10 14zM310 458h20l-10 14zM310 588h20l-10 14zM310 718h20l-10 14zM310 848h20l-10 14zM310 978h20l-10 14z"/>
+  <g><rect class="box" x="60" y="95" width="520" height="85" rx="12"/><text class="k" x="85" y="130">1 · Delimitar</text><text class="s" x="85" y="160">Activitat, cadena de valor i límits.</text></g>
+  <g><rect class="box" x="60" y="225" width="520" height="85" rx="12"/><text class="k" x="85" y="260">2 · Escoltar</text><text class="s" x="85" y="290">Grups, relació i expectatives.</text></g>
+  <g><rect class="box" x="60" y="355" width="520" height="85" rx="12"/><text class="k" x="85" y="390">3 · Analitzar</text><text class="s" x="85" y="420">Impactes, riscos i oportunitats.</text></g>
+  <g><rect class="box" x="60" y="485" width="520" height="85" rx="12"/><text class="k" x="85" y="520">4 · Prioritzar</text><text class="s" x="85" y="550">Mètode declarat i incertesa.</text></g>
+  <g><rect class="box" x="60" y="615" width="520" height="85" rx="12"/><text class="k" x="85" y="650">5 · Actuar</text><text class="s" x="85" y="680">Abast, responsabilitat i recursos.</text></g>
+  <g><rect class="box" x="60" y="745" width="520" height="85" rx="12"/><text class="k" x="85" y="780">6 · Mesurar</text><text class="s" x="85" y="810">Font, període, mètode i límit.</text></g>
+  <g><rect class="box" x="60" y="875" width="520" height="85" rx="12"/><text class="k" x="85" y="910">7 · Informar</text><text class="s" x="85" y="940">Resultats, omissions i afirmacions prudents.</text></g>
+  <g><rect class="box" x="60" y="1005" width="520" height="85" rx="12"/><text class="k" x="85" y="1040">8 · Revisar</text><text class="s" x="85" y="1070">Canvis, dades pendents i decisions.</text></g>
+  <path class="arr" d="M60 1047H20V137h40"/><path class="tip" d="M58 127v20l15-10z"/><rect class="note" x="60" y="1160" width="520" height="150" rx="12"/><text class="k" x="85" y="1200">Control de la mètrica</text><text class="s" x="85" y="1235">Sense abast, font, període i incertesa</text><text class="s" x="85" y="1268">no sosté una conclusió fiable.</text><text class="s" x="85" y="1300">La revisió pot canviar la prioritat.</text>
+</svg>
