@@ -39,13 +39,14 @@ extra_css:
 
 nav:
   - Comença ací: index.md
+  - Guia del mòdul: guia-modul.md
   - Aprén per unitats:
-      - U01 · Sostenibilitat, marcs i criteris ASG: unitats/u01.md
-      - U02 · Reptes ambientals i socials del sector digital: unitats/u02.md
-      - U03 · ODS i exercici professional en DAW: unitats/u03.md
-      - U04 · Economia circular i ecodisseny de servicis web: unitats/u04.md
-      - U05 · Pràctiques sostenibles en el cicle de vida web: unitats/u05.md
-      - U06 · Pla de sostenibilitat d'una empresa web: unitats/u06.md
+      - U01 · La sostenibilitat en les organitzacions: unitats/u01.md
+      - U02 · Reptes ambientals i socials: unitats/u02.md
+      - U03 · Els ODS en l'acompliment professional i personal: unitats/u03.md
+      - U04 · Economia verda i circular: unitats/u04.md
+      - U05 · Activitats sostenibles i medi ambient: unitats/u05.md
+      - U06 · El pla de sostenibilitat: unitats/u06.md
   - Informació curricular i traçabilitat:
       - Itinerari i càrrega orientativa: curs/itinerari.md
       - Pla i planificació del curs: curs/pla-curs.md

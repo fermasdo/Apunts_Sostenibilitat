@@ -35,8 +35,9 @@ data_de_tall_documental: 2026-07-29
 
 - Organitzar el curs en sis unitats, una per cada RA, amb un producte observable
   i contextualitzat en el sector del desenrotllament web.
-- Assignar les 34 hores com a temps total orientatiu de treball de l'alumnat,
-  sense convertir-les en dates ni sessions del centre.
+- Assignar les 34 hores segons la temporalització institucional vigent, com a
+  temps total orientatiu de treball de l'alumnat, sense convertir-les en dates
+  ni sessions del centre.
 - Fer que cada CA tinga explicació, pràctica o evidència i traçabilitat fins al
   dossier documental de la unitat.
 - Incorporar en cada unitat orientació autònoma, cas guiat DAW, activitat amb
@@ -61,20 +62,20 @@ dependre de funcionalitats específiques de la plataforma.
 | ID | Títol | Hores | RA | CA | Producte o evidència principal |
 | --- | --- | ---: | --- | --- | --- |
 | U01 | Sostenibilitat, marcs i criteris ASG | 6 | RA1 | RA1.a–RA1.f | Fitxa de materialitat inicial d'una empresa web amb marc, grups d'interés, riscos, oportunitats i mètriques |
-| U02 | Reptes ambientals i socials del sector digital | 5 | RA2 | RA2.a–RA2.e | Diagnòstic argumentat d'un servici web i proposta coordinada de mesures de reducció d'impactes |
-| U03 | ODS i exercici professional en DAW | 3 | RA3 | RA3.a–RA3.c | Pla breu d'acció professional i personal vinculat amb ODS rellevants per a DAW |
+| U02 | Reptes ambientals i socials del sector digital | 6 | RA2 | RA2.a–RA2.e | Diagnòstic argumentat d'un servici web i proposta coordinada de mesures de reducció d'impactes |
+| U03 | ODS i exercici professional en DAW | 6 | RA3 | RA3.a–RA3.c | Pla breu d'acció professional i personal vinculat amb ODS rellevants per a DAW |
 | U04 | Economia circular i ecodisseny de servicis web | 6 | RA4 | RA4.a–RA4.f | Redisseny justificat d'un servici digital amb principis circulars, ecodisseny i perspectiva de cicle de vida |
-| U05 | Pràctiques sostenibles en el cicle de vida web | 8 | RA5 | RA5.a–RA5.i | Auditoria pràctica d'una activitat web i pla de millora amb impactes, estratègies i normativa ambiental aplicable |
-| U06 | Pla de sostenibilitat d'una empresa web | 6 | RA6 | RA6.a–RA6.e | Informe de sostenibilitat amb grups d'interés, materialitat, accions i indicadors justificats |
+| U05 | Pràctiques sostenibles en el cicle de vida web | 5 | RA5 | RA5.a–RA5.i | Auditoria pràctica d'una activitat web i pla de millora amb impactes, estratègies i normativa ambiental aplicable |
+| U06 | Pla de sostenibilitat d'una empresa web | 5 | RA6 | RA6.a–RA6.e | Informe de sostenibilitat amb grups d'interés, materialitat, accions i indicadors justificats |
 
 ## Comprovació de càrrega
 
 - U01: 6 h
-- U02: 5 h
-- U03: 3 h
+- U02: 6 h
+- U03: 6 h
 - U04: 6 h
-- U05: 8 h
-- U06: 6 h
+- U05: 5 h
+- U06: 5 h
 - **Total: 34 h**
 
 La xifra expressa càrrega planificada, no 34 sessions ni 34 dates lectives.

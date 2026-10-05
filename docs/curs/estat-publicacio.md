@@ -6,8 +6,8 @@ Esta pàgina mostra metadades tècniques de les fonts. No modifica ni interpreta
 | Unitat | Estat de la unitat | Porta registrada | Revisió font (`apunts.md`) | Revisió auditada |
 | --- | --- | --- | --- | --- |
 | U01 | `aprovada` | `G4` | `4` | `4` |
-| U02 | `aprovada` | `G4` | `4` | `4` |
-| U03 | `aprovada` | `G4` | `4` | `4` |
+| U02 | `en-revisio` | `G2` | `5` | `4` |
+| U03 | `en-revisio` | `G2` | `5` | `4` |
 | U04 | `aprovada` | `G4` | `4` | `4` |
-| U05 | `aprovada` | `G4` | `4` | `4` |
-| U06 | `aprovada` | `G4` | `4` | `4` |
+| U05 | `en-revisio` | `G2` | `5` | `4` |
+| U06 | `en-revisio` | `G2` | `5` | `4` |

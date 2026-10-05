@@ -25,12 +25,20 @@ EXPECTED_VISUAL_COUNTS = {
     "U06": 2,
 }
 UNIT_TITLES = {
-    "U01": "Sostenibilitat, marcs i criteris ASG",
-    "U02": "Reptes ambientals i socials del sector digital",
-    "U03": "ODS i exercici professional en DAW",
-    "U04": "Economia circular i ecodisseny de servicis web",
-    "U05": "Pràctiques sostenibles en el cicle de vida web",
-    "U06": "Pla de sostenibilitat d'una empresa web",
+    "U01": "La sostenibilitat en les organitzacions",
+    "U02": "Reptes ambientals i socials",
+    "U03": "Els ODS en l'acompliment professional i personal",
+    "U04": "Economia verda i circular",
+    "U05": "Activitats sostenibles i medi ambient",
+    "U06": "El pla de sostenibilitat",
+}
+PUBLIC_UNIT_TITLES = {
+    "Sostenibilitat, marcs i criteris ASG": "La sostenibilitat en les organitzacions",
+    "Reptes ambientals i socials del sector digital": "Reptes ambientals i socials",
+    "ODS i exercici professional en DAW": "Els ODS en l'acompliment professional i personal",
+    "Economia circular i ecodisseny de servicis web": "Economia verda i circular",
+    "Pràctiques sostenibles en el cicle de vida web": "Activitats sostenibles i medi ambient",
+    "Pla de sostenibilitat d'una empresa web": "El pla de sostenibilitat",
 }
 
 
@@ -275,6 +283,10 @@ def course_itinerary(plan_text: str) -> str:
     if result is None:
         raise RuntimeError("No s'ha localitzat la seqüència d'unitats del pla")
     sequence, _ = result
+    # La planificació conserva títols de treball interns; la publicació mostra la
+    # denominació de les unitats comunicada a l'alumnat en la fitxa del mòdul.
+    for internal_title, public_title in PUBLIC_UNIT_TITLES.items():
+        sequence = sequence.replace(f"| {internal_title} |", f"| {public_title} |")
     return (
         "<!-- Fitxer generat per scripts/sincronitza_mkdocs.py; no l'edites manualment. -->\n"
         "# Itinerari i càrrega orientativa\n\n"
@@ -333,6 +345,16 @@ def publication_notice(source: Path, source_text: str, status_text: str | None) 
 def normalize_unit_asset_paths(text: str) -> str:
     """Adapta només les rutes d'assets de la font a la ubicació en ``docs``."""
     return text.replace("../../../docs/assets/", "../assets/")
+
+
+def use_public_unit_title(text: str, unit: str) -> str:
+    """Mostra a l'alumnat el títol de la fitxa, sense alterar la font editorial."""
+    return re.sub(
+        rf"(?m)^# {unit}\. .+$",
+        f"# {unit}. {UNIT_TITLES[unit]}",
+        text,
+        count=1,
+    )
 
 
 def visual_manifest() -> dict[str, list[tuple[str, str, str, str]]]:
@@ -422,6 +444,7 @@ def copy_markdown(
     text = source.read_text(encoding="utf-8")
     if unit is not None:
         text = normalize_unit_asset_paths(text)
+        text = use_public_unit_title(text, unit)
         text = reorganize_unit(text)
         text = progressive_disclosure(text)
         text = insert_learning_guide(text)
