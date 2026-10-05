@@ -12,7 +12,6 @@ theme:
   language: ca
   font: false
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.top
     - toc.follow
@@ -38,16 +37,16 @@ extra_css:
   - assets/estils-publicacio.css
 
 nav:
-  - Comença ací: index.md
+  - Portada: index.md
   - Guia del mòdul: guia-modul.md
-  - Aprén per unitats:
+  - Unitats:
       - U01 · La sostenibilitat en les organitzacions: unitats/u01.md
       - U02 · Reptes ambientals i socials: unitats/u02.md
       - U03 · Els ODS en l'acompliment professional i personal: unitats/u03.md
       - U04 · Economia verda i circular: unitats/u04.md
       - U05 · Activitats sostenibles i medi ambient: unitats/u05.md
       - U06 · El pla de sostenibilitat: unitats/u06.md
-  - Informació curricular i traçabilitat:
+  - Informació del curs:
       - Itinerari i càrrega orientativa: curs/itinerari.md
       - Pla i planificació del curs: curs/pla-curs.md
       - Matriu curricular: curs/matriu-curricular.md
