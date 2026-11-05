@@ -1,6 +1,6 @@
 ---
 unitat: U02
-revision: 5
+revision: 7
 estat: en-revisio
 temps_total_estimat: 6h
 ra: [RA2]
@@ -26,17 +26,67 @@ distingir què saps, què no saps i què no pots afirmar encara.
 | Tram | Què faràs | Temps |
 | --- | --- | ---: |
 | Obertura | Entendràs el producte final i el recorregut | 10 min |
-| Bloc 1 | Delimitaràs el servici i la qualitat de les dades | 45 min |
-| Cas guiat | Veuràs com arranca un diagnòstic realista | 30 min |
-| Blocs 2 i 3 | Relacionaràs impactes, mesures i coordinació | 75 min |
+| Mapa de reptes | Situaràs els reptes ambientals i socials generals | 40 min |
+| Bloc 1 | Delimitaràs el servici i la qualitat de les dades | 35 min |
+| Cas guiat | Veuràs com arranca un diagnòstic realista | 25 min |
+| Blocs 2 i 3 | Relacionaràs impactes, mesures i coordinació | 65 min |
 | Activitat central | Elaboraràs el teu diagnòstic | 100 min |
 | Autoavaluació | Comprovaràs si has entés el nucli de la unitat | 50 min |
-| Tutoria o alternativa autònoma | Contrastaràs una decisió i registraràs els dubtes | 30 min |
-| Tancament | Revisaràs el lliurament, les fonts i el resum | 20 min |
-| **Total** | **Estudi, activitat, autoavaluació, suport i revisió** | **360 min (6 h)** |
+| Tutoria o treball equivalent | Resoldràs dubtes o consolidaràs el diagnòstic | 30 min |
+| Tancament | Revisaràs les fonts i el resum | 5 min |
+| **Total** | **Estudi, activitat, autoavaluació, tutoria o treball equivalent i revisió** | **360 min (6 h)** |
 
-Per a prerequisits, accessibilitat, glossari, traçabilitat i referències de
-suport, consulta l'annex de suport al final del document.
+Les referències de suport apareixen al final del document.
+
+## 0. Mapa de reptes ambientals i socials
+
+La sostenibilitat no es limita a un problema ambiental aïllat. Els reptes es
+relacionen entre si: una decisió sobre energia, materials, mobilitat o disseny
+pot afectar ecosistemes, condicions de vida, oportunitats d'accés i activitat
+econòmica. Este mapa procedix de la presentació docent de la unitat [PRE-01].
+
+### 0.1. Reptes ambientals
+
+| Repte | Idea per a entendre'l | Connexió inicial amb un servici digital |
+| --- | --- | --- |
+| Canvi climàtic | Alteració sostinguda dels patrons climàtics; l'activitat humana n'és la causa principal de l'escalfament global observat [PRE-01; TEC-14]. | Energia, infraestructura, xarxa, desplaçaments i decisions de compra poden formar part de la frontera d'anàlisi. |
+| Contaminació | Introducció d'agents químics, físics o biològics que afecten l'aire, l'aigua, el sòl o les persones; també pot ser acústica o lumínica [PRE-01]. | No s'ha d'atribuir una contaminació concreta a una web sense dades del proveïdor, la infraestructura i la frontera. |
+| Pèrdua de biodiversitat | La pèrdua d'hàbitats, la contaminació, el canvi climàtic, la sobreexplotació i les espècies invasores poden degradar ecosistemes [PRE-01]. | El servici depén d'equips, materials, energia i proveïdors; cal evitar afirmar un efecte directe sense evidència del cas. |
+| Deforestació i erosió del sòl | La transformació del territori, l'extracció de recursos, la urbanització i els incendis poden reduir la capacitat del sòl per a retindre aigua i nutrients [PRE-01]. | És un impacte possible aigües amunt en les cadenes de subministrament, no una conseqüència demostrada de qualsevol aplicació. |
+| Sobreexplotació de recursos i escassetat d'aigua | Hi ha sobreexplotació quan l'extracció o l'ús supera la capacitat de regeneració; l'aigua disponible és un recurs limitat [PRE-01]. | La infraestructura digital pot mobilitzar electricitat i aigua, però la dada global o d'un centre no es pot assignar automàticament al servici [TEC-01; NOR-03]. |
+| Generació i gestió de residus | El model de comprar, usar i tirar incrementa els residus; cal prioritzar reducció, reutilització i reciclatge [PRE-01]. | Els equips informàtics exigixen decisions de manteniment, reutilització i entrega separada quan passen a ser residus d'aparells elèctrics i electrònics (RAEE) [TEC-04–TEC-05; NOR-04]. |
+
+### 0.2. Reptes socials
+
+La dimensió social incorpora les condicions en què les persones poden accedir a
+recursos, drets, oportunitats i servicis. La presentació posa el focus en tres
+reptes que també ajuden a formular preguntes per a un servici web [PRE-01].
+
+| Repte | Què cal observar | Pregunta aplicable a DAW |
+| --- | --- | --- |
+| Pobresa | La falta de recursos per a satisfer necessitats bàsiques pot reforçar l'exclusió en educació, salut, habitatge o participació [PRE-01]. | El cost de connexió, les dades mòbils o un procés excessivament pesat poden dificultar l'accés? |
+| Desigualtats | Són diferències injustes en l'accés, la distribució o el gaudi de recursos, oportunitats i drets; poden ser econòmiques, de gènere, ètniques, territorials, d'edat o vinculades a la discapacitat [PRE-01]. | El flux es pot completar amb teclat, lector de pantalla, connexions lentes i dispositius diversos? |
+| Repte demogràfic | Inclou despoblació, envelliment i població flotant; pot afectar la disponibilitat de servicis, connectivitat i oportunitats en els territoris [PRE-01]. | El servici pressuposa cobertura, competències digitals o atenció presencial que no estan disponibles per a totes les persones? |
+
+!!! note "No convertisques el mapa en un diagnòstic"
+    Este apartat identifica mecanismes generals. Per a afirmar que un servici
+    concret provoca o resol un impacte, cal delimitar-lo, aportar evidència i
+    declarar les dades absents.
+
+### 0.3. Activitat econòmica, sectors i respostes
+
+Els reptes afecten el sector primari, el secundari i el terciari: alteren la
+disponibilitat de recursos, les cadenes de subministrament, les infraestructures,
+els costos, les condicions de treball i l'accés als servicis [PRE-01]. En un
+servici web, la relació no és només ambiental: també pot afectar la inclusió,
+la privacitat, l'ocupació i la confiança de les persones usuàries.
+
+Les respostes generals que recull la presentació són la transició i l'eficiència
+energètiques, la mobilitat sostenible, la conservació de la biodiversitat, el
+consum i la producció circulars, les polítiques públiques, l'educació ambiental i
+les aliances [PRE-01]. En esta unitat no has de dissenyar una política completa:
+has de traduir una d'estes línies en una mesura concreta, amb responsable,
+seguiment i límits.
 
 ## 1. Delimita el servici abans d'opinar
 
@@ -79,7 +129,7 @@ L'esquema orienta, però no fixa una arquitectura universal.
 
 | Etiqueta de dada | Què vol dir | Què has de fer |
 | --- | --- | --- |
-| Mesurada | Prové d'observació o telemetria | Indica instrument, període i cobertura |
+| Mesurada | Prové d'observació o de telemetria (registres automàtics del funcionament) | Indica instrument, període i cobertura |
 | Estimada | Depén de supòsits o factors | Explica d'on ix l'estimació |
 | Hipotètica | És pròpia del cas didàctic | No la presentes com a dada real |
 | No disponible | No tens la font necessària | No inventes el valor |
@@ -110,7 +160,7 @@ dades aplicables sobre electricitat, aigua o emissions del servici.
 > **Clau del cas**
 >
 > Totes les dades són hipotètiques. Servixen per a aprendre a raonar, no per a
-> descriure el centre ni una empresa real. Ací no cal calcular CO2e ni omplir
+> descriure el centre ni una empresa real. Ací no cal calcular CO2e (diòxid de carboni equivalent) ni omplir
 > buits amb xifres inventades.
 
 ### Què has d'observar
@@ -134,7 +184,7 @@ per a analitzar els reptes.
 | Element | Decisió inicial | Per què és útil |
 | --- | --- | --- |
 | Unitat funcional | Una compra completada | Permet comparar el mateix procés en cada anàlisi |
-| Frontera | Navegador, xarxa, CDN, aplicació, API i base de dades | Definix què s'inclou en l'estudi i què no |
+| Frontera | Navegador, xarxa, CDN (xarxa de distribució de continguts), aplicació, API i base de dades | Definix què s'inclou en l'estudi i què no |
 | Exclusions | Fabricació del dispositiu de la clientela i qualsevol dada ambiental no disponible | Evita confondre dades desconegudes amb dades reals |
 | Límits | No es calcula CO2e i no s'inventen valors absents | Manté la prudència i el rigor del diagnòstic |
 
@@ -171,7 +221,8 @@ seua clientela [TEC-01–TEC-09].
 **Evidència observable RA2.a–RA2.c.** Abans del diagnòstic central, completa
 sis files breus —tres reptes ambientals i tres socials— amb: (a) el repte
 identificat; (b) la decisió o activitat econòmica DAW que el mobilitza; i (c)
-les persones i els sectors potencialment afectats, més la dada que falta. Esta
+les persones i els sectors potencialment afectats, més la dada que falta. Usa
+estes sis files com a esborrany de la secció 2 de l'activitat central. Esta
 evidència és diagnòstica: no demana encara el redisseny detallat d'U04.
 
 ## 2. Relaciona reptes, activitat i efectes
@@ -282,10 +333,10 @@ entre rendiment, accessibilitat, privacitat o cost?
 
 Faràs un diagnòstic argumentat d'un servici de reserves web.
 
-### Situació de partida
+### Enunciat
 
 **Les dades següents són hipotètiques.** Cita Clara permet reservar cites en
-línia. La portada descarrega mitjans sense adaptar-los al dispositiu, repetix
+línia. La portada descarrega recursos multimèdia sense adaptar-los al dispositiu, repetix
 consultes i demana més dades de les necessàries. No consta una revisió
 documentada d'accessibilitat ni un protocol clar de manteniment o retirada
 d'equips. Tampoc hi ha dades aplicables del proveïdor sobre electricitat, aigua
@@ -296,13 +347,40 @@ o emissions del servici.
 > 1. Delimita la frontera, la unitat funcional i les dades disponibles (10 min).
 > 2. Completa el mapa contextual de sis reptes: tres ambientals i tres socials
 >    (25 min).
-> 3. Selecciona quatre reptes del mapa i completa'n la cadena diagnòstica
->    (30 min).
+> 3. Selecciona quatre reptes del mapa que tinguen una observació directa en el
+>    cas i una mesura inicial viable, i completa'n la cadena diagnòstica (30 min).
 > 4. Proposa una mesura amb responsable i seguiment per a cada un (20 min).
 > 5. Tanca amb una coordinació viable (10 min).
-> 6. Revisa els límits, les citacions i el registre de dubtes (5 min).
+> 6. Revisa els límits, les citacions i el registre de dubtes (5 min). Si inclous
+>    afirmacions generals que no procedixen de l'enunciat, cita les referències
+>    d'esta unitat. No cal citar les dades hipotètiques del cas.
+
+### Com realitzar el treball
+
+**Pas 1.** Delimita què analitzes. Indica la **unitat funcional** i els
+components que inclous en la frontera.
+
+**Pas 2.** Identifica sis reptes: tres ambientals i tres socials. Per a cada un,
+relaciona'l amb una activitat del servici, les persones i els sectors que podria
+afectar, i la dada que falta.
+
+**Pas 3.** Tria quatre reptes prioritaris que tinguen una observació directa en
+el cas i una mesura inicial viable. Explica la cadena: activitat o decisió,
+recurs o relació, impacte potencial, persones o sectors i límit de l'evidència.
+
+**Pas 4.** Proposa una mesura per a cada repte prioritari. Ha d'indicar qui la
+impulsa i com se'n comprovarà el resultat.
+
+**Pas 5.** Explica com es coordinen els actors necessaris i quina informació
+aporta cadascun.
+
+**Pas 6.** Tanca el diagnòstic amb les conclusions i les dades que encara no
+permeten fer afirmacions quantitatives.
 
 ### Plantilla de treball
+
+Completa les sis seccions i presenta-les en un document de format obert
+compatible amb Aules.
 
 ```text
 # Diagnòstic de Cita Clara
@@ -313,7 +391,7 @@ o emissions del servici.
 | Repte ambiental o social | Activitat econòmica DAW | Persones | Sectors | Dada absent o límit |
 
 ## 3. Quatre reptes prioritaris
-| Repte | Activitat o recurs | Persones afectades | Sectors afectats | Límit o evidència |
+| Repte | Activitat o decisió | Recurs o relació | Impacte potencial | Persones afectades | Sectors afectats | Límit o evidència |
 
 ## 4. Mesures
 | Repte | Mesura | Responsable | Seguiment |
@@ -324,79 +402,121 @@ o emissions del servici.
 ## 6. Conclusions i registre de dubtes
 ```
 
-### Lliurament i comprovació ràpida
+### Possible solució comentada
 
-- **Lliurament:** un únic fitxer en `.md`, `.odt` o `.txt`, lliurat en
-  **Aules (Moodle)**.
- - **Temps orientatiu:** 100 minuts.
+Esta és una resposta model. No és l'única possible, però mostra la diferència
+entre una observació del cas, un impacte potencial i una dada que no està
+disponible.
 
-| Abans d'entregar | Sí / no |
+#### 1. Frontera, unitat funcional i qualitat de les dades
+
+- **Unitat funcional:** una reserva completada.
+- **Frontera:** navegador, xarxa, recursos multimèdia de la portada, aplicació
+  web, API i base de dades.
+- **Dades del cas:** la càrrega de mitjans no s'adapta al dispositiu, es repetixen
+  consultes, es demanen més dades de les necessàries i no consta una revisió
+  documentada d'accessibilitat ni un protocol per als equips.
+- **Dades absents:** electricitat, aigua, emissions, arquitectura concreta,
+  regió d'allotjament i dades de proveïdors. Per això no es pot calcular CO2e ni
+  atribuir consum d'aigua al servici.
+
+#### 2. Mapa contextual de reptes
+
+| Repte | Activitat o situació del cas | Persones i sectors | Dada absent o límit |
+| --- | --- | --- | --- |
+| Transferència i recursos | Mitjans sense adaptar i consultes repetides | Persones amb connexions limitades; telecomunicacions i TIC | No hi ha telemetria ni model per a quantificar energia o emissions. |
+| Electricitat i aigua | Allotjament del servici | Comunitats, energia, aigua i centres de dades | No hi ha dades del proveïdor ni una assignació aplicable a Cita Clara. |
+| Equips i RAEE | No consta un protocol de manteniment ni de retirada | Personal TIC, gestió de residus i comunitats exposades | No se sap quins equips hi ha ni el seu estat real. |
+| Accessibilitat | No consta una revisió documentada | Persones amb discapacitat; comerç i atenció digital | L'absència de revisió no demostra per si sola una barrera concreta. |
+| Bretxa digital | Mitjans pesats per a tots els dispositius | Persones amb connexions o dispositius limitats; xarxes i servicis digitals | No hi ha dades de les persones usuàries ni de les seues connexions. |
+| Privacitat | Es demanen més dades de les necessàries | Persones que reserven; gestió de dades i seguretat | Cal conéixer la finalitat de cada camp per a valorar-ne la necessitat. |
+
+#### 3. Quatre reptes prioritaris i mesures
+
+| Repte | Cadena diagnòstica | Mesura, responsable i seguiment |
+| --- | --- | --- |
+| Transferència | Recursos multimèdia no adaptats i consultes repetides -> més trànsit -> ús més difícil amb connexions limitades -> no es quantifica l'impacte ambiental sense dades. | DAW i disseny adapten formats, dimensions i càrrega; operacions compara el pes i les peticions per reserva abans i després. |
+| Accessibilitat | No consta revisió -> poden existir barreres -> possible exclusió de persones usuàries -> cal comprovar-les. | UX i DAW revisen els recorreguts amb criteris WCAG (pautes d'accessibilitat per al contingut web) i proves amb teclat; es registren i corregixen les incidències trobades. |
+| Privacitat | Camps excessius -> tractament de dades que podrien no ser necessàries -> risc per a les persones afectades. | Producte, DAW i privacitat revisen finalitat i necessitat de cada camp; es manté un inventari de dades i es comprova el formulari. |
+| Equips i RAEE | No consta protocol -> es pot perdre vida útil o gestionar malament el final de vida -> impacte potencial en materials i residus. | TIC i compres creen un registre de manteniment, reutilització i retirada separada; revisen periòdicament els equips retirats. |
+
+#### 4. Coordinació i conclusió
+
+| Actor | Funció en la solució |
 | --- | --- |
-| He delimitat la frontera |  |
-| He triat una unitat funcional clara |  |
-| He identificat tres reptes ambientals i tres socials |  |
-| He relacionat els sis reptes amb activitat, persones i sectors |  |
-| He separat persones i sectors |  |
-| He evitat inventar dades absents |  |
-| Cada mesura té responsable i seguiment |  |
+| Producte | Prioritza les millores i resol les compensacions entre cost, rendiment, accessibilitat i privacitat. |
+| UX i DAW | Detecten i corregeixen barreres; reduïxen recursos innecessaris sense eliminar informació imprescindible. |
+| Operacions | Aporta les mètriques disponibles, els límits de la infraestructura i les dades que no es poden obtindre. |
+| Privacitat | Revisa la finalitat, la necessitat i el tractament de les dades del formulari. |
+| TIC i compres | Gestionen el manteniment, la reutilització i la retirada dels equips. |
 
-## Tutoria col·lectiva quinzenal o alternativa autònoma
-
-Reserva **30 minuts** per a contrastar una decisió del diagnòstic. La tutoria no
-introduïx contingut imprescindible i no té una data fixada en estos apunts.
-
-Si hi participes, porta una fila del mapa contextual i una cadena diagnòstica.
-Explica quina dada falta, quines dos interpretacions consideres i què canviaria
-la decisió. Si no hi participes, dedica els mateixos 30 minuts a:
-
-1. contrastar una fila ambiental i una de social amb el mapa de la unitat;
-2. escriure una interpretació alternativa per a cada fila;
-3. comprovar si has generalitzat una dada global al cas;
-4. revisar responsable, seguiment i possibles compensacions d'una mesura; i
-5. conservar la decisió provisional en el mateix fitxer.
-
-Usa este **registre de dubtes**: `apartat | pregunta | evidència disponible |
-dada absent | opció provisional | què la faria canviar`. Si necessites traslladar
-el dubte, usa l'espai habilitat en Aules (Moodle), sense inferir altres canals.
+**Conclusió comentada.** El cas permet prioritzar millores sobre rendiment,
+accessibilitat, privacitat i gestió d'equips. En canvi, no permet afirmar quanta
+energia, aigua o emissions estalviarà Cita Clara: eixes dades no apareixen en
+l'enunciat i requeririen una frontera, telemetria o un model explícit.
 
 ## Autoavaluació
 
 Respon sense mirar les solucions. Són sis preguntes i van al nucli de la unitat.
 
-1. **Opció múltiple.** Quina unitat funcional és millor?
-   - a) "El núvol"
-   - b) "Una reserva completada"
-   - c) "La sostenibilitat del web"
-2. **Vertader o fals.** Si una pàgina pesa menys, ja pots afirmar quantes
-   emissions has evitat.
-3. **Resposta curta.** Quina diferència hi ha entre una dada estimada i una no
-   disponible?
-4. **Opció múltiple.** Quina frase és més prudent?
-   - a) "Tot impacte digital afecta igual totes les persones"
-   - b) "Cal distingir persones afectades, sectors afectats i límits de la dada"
-   - c) "Si no hi ha telemetria, podem omplir el buit amb una xifra genèrica"
-5. **Vertader o fals.** Una coordinació transversal es pot resumir en "DAW ja ho
-   arreglarà".
-6. **Resposta curta.** Escriu una cadena simple que relacione activitat, impacte
-   i mesura.
+**Pregunta 1. Opció múltiple.** Quina unitat funcional és millor?
+
+Opcions: a) «El núvol»; b) «Una reserva completada»; c) «La sostenibilitat del web».
+
+**Pregunta 2. Vertader o fals.** Si una pàgina pesa menys, ja pots afirmar
+quantes emissions has evitat.
+
+**Pregunta 3. Resposta curta.** Quina diferència hi ha entre una dada estimada i
+una dada no disponible?
+
+**Pregunta 4. Opció múltiple.** Quina frase és més prudent?
+
+Opcions: a) «Tot impacte digital afecta igual totes les persones»; b) «Cal
+distingir persones afectades, sectors afectats i límits de la dada»; c) «Si no hi
+ha telemetria, podem omplir el buit amb una xifra genèrica».
+
+**Pregunta 5. Vertader o fals.** Una coordinació transversal es pot resumir en
+«DAW ja ho arreglarà».
+
+**Pregunta 6. Resposta curta.** Escriu una cadena simple que relacione activitat,
+impacte potencial, persones afectades i una mesura.
 
 ## Solucionari raonat
 
-1. **b.** És una acció concreta i comparable. Les altres opcions són massa vagues
-   o no funcionen com a unitat funcional.
-2. **Fals.** Menys pes no equival directament a menys emissions demostrades si no
-   tens el mètode o les dades necessàries [TEC-02–TEC-03].
-3. **Resposta esperada.** Una dada estimada naix d'un càlcul o supòsit explicat.
-   Una dada no disponible és una dada que no tens i que no pots inventar.
-4. **b.** És l'única que obliga a separar receptors i límits abans de concloure.
-5. **Fals.** La coordinació necessita actors, funcions, informació i seguiment
-   [TEC-15–TEC-16].
-6. **Exemple.** "La portada carrega massa pes -> pot dificultar l'ús amb
-   connexions limitades -> cal optimitzar mitjans i comprovar el canvi."
+**Resposta 1. b) «Una reserva completada».** És una acció concreta que es pot
+comparar abans i després d'un canvi. «El núvol» i «la sostenibilitat del web» no
+descriuen un servici prestat ni permeten establir una comparació equivalent.
+
+**Resposta 2. Fals.** Una pàgina més lleugera pot reduir la transferència, però
+els bytes no són una mesura directa d'energia ni d'emissions. Per afirmar un
+estalvi d'emissions caldrien, com a mínim, una frontera, una unitat funcional,
+telemetria o model i una metodologia declarada [TEC-02–TEC-03].
+
+**Resposta 3.** Una dada estimada procedix d'un càlcul amb supòsits i fonts que
+s'han d'explicar. Una dada no disponible és una dada que no tenim: no es pot
+substituir per una xifra genèrica ni presentar-la com a real.
+
+**Resposta 4. b).** És prudent perquè obliga a indicar qui rep l'efecte, en quin
+sector es produïx i què es pot demostrar. Les opcions a) i c) generalitzen sense
+evidència: els impactes no afecten igual totes les persones i la falta de
+telemetria no autoritza a inventar valors.
+
+**Resposta 5. Fals.** DAW pot implementar millores, però no pot decidir en solitari
+la finalitat de les dades, les proves d'accessibilitat, la informació de la
+infraestructura o el final de vida dels equips. Calen funcions, informació i
+seguiment compartits [TEC-15–TEC-16].
+
+**Resposta 6. Exemple.** «La portada carrega imatges sense adaptar al dispositiu
+-> augmenta la transferència i pot dificultar l'ús amb connexions limitades ->
+afecta persones amb menys amplària de banda -> DAW i disseny adapten les imatges i
+comparen el pes per reserva». La frase no afirma emissions perquè el cas no aporta
+les dades necessàries.
 
 ## Resum
 
 - Primer delimita el servici.
+- Els reptes ambientals i socials estan connectats, però el seu efecte concret
+  s'ha de demostrar en cada cas.
 - Després separa dades reals, estimades i absents.
 - Relaciona cada repte amb una activitat concreta.
 - Distingix persones afectades i sectors afectats.
@@ -404,62 +524,14 @@ Respon sense mirar les solucions. Són sis preguntes i van al nucli de la unitat
 - Proposa mesures amb responsable i seguiment.
 - Tanca amb una coordinació creïble.
 
-## Annex de suport
-
-### Prerequisits
-
-- Concepte bàsic de sostenibilitat.
-- Distinció entre aspectes ambientals, socials i de governança.
-- Identificació inicial de grups d'interés treballada en la U01.
-- Lectura de taules simples i redacció d'arguments breus.
-
-### Ús autònom i accessibilitat
-
-- Tot el contingut essencial està en text.
-- Pots lliurar l'activitat en `.md`, `.odt` o `.txt`.
-- Mantín títols jeràrquics i explica les relacions amb paraules.
-- Cap instrucció depén exclusivament del color.
-
-### Resultats i criteris treballats
-
-**RA2.** Caracteritza els reptes ambientals i socials als quals s'enfronta la
-societat, descriu els impactes sobre les persones i els sectors productius i
-proposa accions per a minimitzar-los [CUR-01, annex IX, p. 118].
-
-| CA | Evidència principal en la unitat |
-| --- | --- |
-| RA2.a | Selecció argumentada de reptes pertinents |
-| RA2.b | Relació entre repte i activitat del servici |
-| RA2.c | Separació entre persones, sectors, evidència i límits |
-| RA2.d | Mesures coherents amb responsable i seguiment |
-| RA2.e | Coordinació viable amb funcions definides |
-
-### Glossari mínim
-
-| Terme | Definició curta |
-| --- | --- |
-| Frontera | Components inclosos i exclosos en l'anàlisi |
-| Unitat funcional | Acció amb què compares el servici |
-| Dada estimada | Dada construïda amb supòsits o càlcul |
-| Dada no disponible | Dada absent que no pots inventar |
-| Efecte rebot | Millora per unitat que no assegura menys impacte total |
-| Coordinació | Repartiment explícit de funcions, informació i seguiment |
-
-### Mapa de traçabilitat
-
-| CA | Secció explicativa | Evidència o activitat | Font del dossier |
-| --- | --- | --- | --- |
-| RA2.a | Context DAW i bloc 2 | Mapa de sis reptes i selecció argumentada en Cita Clara | CUR-01; TEC-01–TEC-14 |
-| RA2.b | Context DAW i bloc 2 | Relació entre cada repte i l'activitat econòmica DAW | CUR-01; TEC-01–TEC-04; TEC-12–TEC-13 |
-| RA2.c | Context DAW i bloc 2 | Persones, sectors, evidència i límits en sis files | CUR-01; TEC-01; TEC-05–TEC-14; NOR-01–NOR-02 |
-| RA2.d | Bloc 3 | Taula de mesures i activitat central | CUR-01; TEC-03; TEC-10–TEC-11; TEC-16; NOR-01–NOR-04 |
-| RA2.e | Bloc 3 i tutoria o alternativa | Taula d'actors, coordinació final i contrast d'una decisió | CUR-01; TEC-01; TEC-15–TEC-16 |
-
 ## Referències
 
 Les etiquetes conserven els identificadors del dossier documental d'U02. Totes
 les fonts següents es van consultar el **30 de juliol de 2026**.
 
+- **[PRE-01]** Presentació docent facilitada per al desenvolupament d'U02.
+  *Retos ambientales y sociales*, 28 diapositives. Material de partida de la
+  unitat, sense data editorial indicada; rebut el 14.10.2026.
 - **[CUR-01]** Consell de la Generalitat Valenciana. *Decret 114/2025, de 29 de
   juliol*; DOGV-V-2025-29742, annex IX, pp. 118-119.
   <https://dogv.gva.es/datos/2025/08/04/pdf/2025_29742_va.pdf>
