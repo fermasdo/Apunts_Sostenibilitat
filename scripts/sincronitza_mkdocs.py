@@ -350,7 +350,7 @@ def normalize_unit_asset_paths(text: str) -> str:
 def use_public_unit_title(text: str, unit: str) -> str:
     """Mostra a l'alumnat el títol de la fitxa, sense alterar la font editorial."""
     return re.sub(
-        rf"(?m)^# {unit}\. .+$",
+        r"(?m)^# .+$",
         f"# {unit}. {UNIT_TITLES[unit]}",
         text,
         count=1,
@@ -493,6 +493,20 @@ def is_publishable(status_text: str) -> bool:
     return yaml_value(status_text, "estat") == "aprovada" and yaml_value(status_text, "porta_superada") == "G4"
 
 
+def is_readable_draft(unit: str, status_text: str) -> bool:
+    """Autoritza una lectura provisional sense presentar-la com a publicada.
+
+    U02 disposa d'uns apunts complets que el docent ha sol·licitat oferir com a
+    lectura a l'alumnat. Es requerix G2 perquè la còpia manté el contracte visual
+    i de redacció, però G4 continua sent obligatòria per a declarar-la aprovada.
+    """
+    return (
+        unit == "U02"
+        and yaml_value(status_text, "estat") == "en-revisio"
+        and yaml_value(status_text, "porta_superada") == "G2"
+    )
+
+
 def unpublished_unit_page(unit: str, status_text: str) -> str:
     status = yaml_value(status_text, "estat") or "no indicat"
     gate = yaml_value(status_text, "porta_superada") or "no indicada"
@@ -541,6 +555,14 @@ def main() -> None:
         destination = DOCS / "unitats" / f"{unit.lower()}.md"
         if is_publishable(status_text):
             verify_approval_contract(unit, status_text)
+            copy_markdown(
+                MATERIALS / "unitats" / unit / "apunts.md",
+                destination,
+                status_text,
+                unit,
+                manifest,
+            )
+        elif is_readable_draft(unit, status_text):
             copy_markdown(
                 MATERIALS / "unitats" / unit / "apunts.md",
                 destination,
